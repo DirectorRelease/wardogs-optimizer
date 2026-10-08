@@ -1,0 +1,59 @@
+# Build artifacts
+*.exe
+*.dll
+*.pdb
+*.obj
+*.o
+*.a
+*.lib
+*.exp
+*.ilk
+*.idb
+*.tmp
+*.log
+
+# Archives
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+
+# IDE
+.vscode/
+.idea/
+*.sublime-*
+*.code-workspace
+*.suo
+*.user
+*.userosscache
+
+# OS
+Thumbs.db
+Desktop.ini
+.DS_Store
+$RECYCLE.BIN/
+
+# Environment
+.env
+.env.local
+*.env
+
+# Dependencies
+node_modules/
+packages/
+vendor/
+
+# Cache
+.cache/
+build/
+dist/
+out/
+bin/
+obj/
+
+# Secrets
+*.key
+*.pem
+*.pfx
+secrets.json
